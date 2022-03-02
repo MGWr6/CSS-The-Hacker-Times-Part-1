@@ -6,6 +6,9 @@ body {
 }
 
 .newspaper-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
     width: 700px;
     border-radius: 10px;
@@ -29,26 +32,27 @@ main > h5 {
 
 main {
     display: block;
-    max-width:;
 }
 
 h2, h4 {
     font-family: 'Roboto Slab';
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+a {
+    text-decoration: none;
+    color:#777;
+ }
 
 span {
     display: inline-block;
+    list-style-type: none;
+    margin: 2.5px;
+    padding: 0px;
+    border: 2px #777;
+    color:#777;
 }
 
-span >li {
-    color: #777;
-}
+
 
 /* Colors
 Body background and all borders: #eee
